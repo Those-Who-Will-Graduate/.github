@@ -29,9 +29,10 @@ npm run dev
 ```
 
 ##### 3. Embedded
-(0) 작업 중 .. 
+(1) `VS Code` 내 `Remote - SSH` 환경 구축
+(2) `PINGWA/home` **연결 필요**
 
 ##### 4. AI
 (1) `model/best.pt` 환경 구축 **수동 할당**
-(2) `/detect` 할당 **연결 필요**
+(2) `/detect` **연결 필요**
 
