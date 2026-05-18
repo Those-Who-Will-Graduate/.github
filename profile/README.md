@@ -1,12 +1,37 @@
-## Hi there 👋
+## P!NKWARD
 
-<!--
+##### 1. Server
+(1) `TailScale` IP 할당
+(2) `requirements.txt` 만족하는 python 환경 구축 **(추가 필요)**
+(3) 서버 구동
+``` bash 
+uvicorn server:app --host 0.0.0.0 --port 8000
+```
 
-**Here are some ideas to get you started:**
+##### 2. Frontend
+(1) `frontend/` 디렉터리 이동
+(2) `node.js` 환경 구축 후 확인
+`````bash
+node -v
+npm -v
+`````
+`````
+v18.0.0
+9.0.0
+`````
+(3) `node.js` 패키지 설치
+```bash
+npm install
+```
+(4) `node.js` 구동
+``` bash 
+npm run dev 
+```
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+##### 3. Embedded
+(0) 작업 중 .. 
+
+##### 4. AI
+(1) `model/best.pt` 환경 구축 **수동 할당**
+(2) `/detect` 할당 **연결 필요**
+
